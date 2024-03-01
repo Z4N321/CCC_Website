@@ -1,27 +1,33 @@
 body {
-    background-color:slategrey;
+    background-color:slategray;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 header {
     background-color: #333;
-    color: #00dd80;
+    color: #21CB7A;
     padding: 20px;
     text-align: center;
 }
 .tabs {
-    color: #00dd80;
+    border:slategray;
+    background-color:#333;
+    -webkit-text-fill-color: #21CB7A;
     text-align: center;
 }
 h1 {
     margin: 0;
+    text-align: center;
 }
 .container {
     max-width: 1200px;
     margin: 20px auto;
     padding: 0 20px;
+    text-align: center;
 }
 p {
     line-height: 1.6;
+    text-align: center;
 }
