@@ -9,7 +9,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     word-wrap: break-word;
-  
 }
 header {
     background-color: #333;
@@ -17,6 +16,26 @@ header {
     color: #21CB7A;
     padding: 20px;
     text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #21CB7A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
 }
 .tabs {
     border:slategray;
@@ -33,6 +52,7 @@ h1 {
     margin: 20px auto;
     padding: 0 20px;
     text-align: center;
+    align-items: center;
 }
 p {
     line-height: 1.6;
